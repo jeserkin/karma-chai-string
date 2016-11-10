@@ -1,5 +1,7 @@
 'use strict';
 
-function createStartFn() {
-  return function() {};
+function createStartFn(chai) {
+  return function() {
+    chai.use(require('chai-string'));
+  };
 }

@@ -2,6 +2,6 @@
 
 %CONTENT%
 
-window.__karma__.start = createStartFn();
+window.__karma__.start = createStartFn(window.chai);
 
 })(typeof window !== 'undefined' ? window : global);
