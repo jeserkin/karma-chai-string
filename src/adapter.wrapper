@@ -1,0 +1,7 @@
+(function(window) {
+
+%CONTENT%
+
+window.__karma__.start = createStartFn();
+
+})(typeof window !== 'undefined' ? window : global);
