@@ -1,6 +1,6 @@
 {
   "name": "karma-chai-string",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A Karma plugin. Adapter for chai-string plugin.",
   "main": "lib/index.js",
   "repository": {
