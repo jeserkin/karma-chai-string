@@ -1,7 +1,7 @@
 'use strict';
 
 function createStartFn(chai) {
-  return function() {
+  return function () {
     var chaiStringUtil = chaiString;
     chai.use(chaiStringUtil(chai));
   };

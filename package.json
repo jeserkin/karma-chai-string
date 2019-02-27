@@ -1,6 +1,6 @@
 {
   "name": "karma-chai-string",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "A Karma plugin. Adapter for chai-string plugin.",
   "main": "lib/index.js",
   "repository": {
@@ -16,11 +16,11 @@
   ],
   "author": "Eugene Serkin <jeserkin@gmail.com>",
   "dependencies": {
-    "chai-string": "^1.2.0"
+    "chai-string": "^1.5.0"
   },
   "peerDependencies": {
     "karma": ">=0.9",
-    "chai": "^3.5.0"
+    "chai": "^4.2.0"
   },
   "license": "MIT",
   "bugs": {
